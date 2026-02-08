@@ -24,7 +24,7 @@ app.post("/api/chat", async (req, res) => {
         { role: "system", content: "You are a friendly assistant." },
         { role: "user", content: message }
       ],
-      model: "openai/gpt-4o-mini",  // or any other supported model
+      model: "llama-3.1-8b-instant",  // or any other supported model
     });
 
     // The API returns an array of choices
