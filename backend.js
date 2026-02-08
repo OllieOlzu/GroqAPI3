@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import 'dotenv/config';
-import Groq from 'groq-js'; // Make sure this is the correct import for your Groq SDK
+import { Groq } from 'groq-js';
 
 const app = express();
 app.use(cors());
